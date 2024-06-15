@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FAF5EF"
+
+    tools:context="com.example.a91962.accidentalert.AdddonorDetails"
+    >
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView2"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="13dp"
+        android:layout_marginRight="13dp"></Spinner>
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/s1"
+        android:layout_marginRight="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_alignBottom="@+id/textView9"
+        android:layout_alignRight="@+id/spinner"
+        android:layout_alignEnd="@+id/spinner"></Spinner>
+
+    <EditText
+        android:id="@+id/e3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif"
+        android:layout_marginTop="18dp"
+        android:hint=" DOB"
+        android:maxLength="10"
+        android:minEms="5"
+        android:textSize="23sp"
+        android:textStyle="italic|bold"
+        tools:ignore="HardcodedText"
+        android:layout_below="@+id/e2"
+        android:layout_alignLeft="@+id/e2"
+        android:layout_alignStart="@+id/e2"
+        android:layout_alignRight="@+id/textView7"
+        android:layout_alignEnd="@+id/textView7" />
+
+    <EditText
+        android:id="@+id/e4"
+        android:fontFamily="serif"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/e3"
+        android:layout_alignLeft="@+id/e3"
+        android:layout_alignRight="@+id/e3"
+        android:layout_alignStart="@+id/e3"
+        android:layout_below="@+id/e3"
+        android:layout_marginTop="16dp"
+        android:textStyle="italic|bold"
+        android:hint="Phone"
+        android:inputType="phone"
+        android:maxLength="10"
+        android:minEms="5"
+        android:textSize="23sp"
+
+        tools:ignore="HardcodedText" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/e5"
+        android:hint="Student Class"
+        android:textStyle="italic|bold"
+        android:textSize="23sp"
+        android:inputType="number"
+        android:fontFamily="serif"
+        android:minEms="2"
+        android:maxEms="2"
+        android:maxLength="10"
+        android:layout_marginTop="13dp"
+        android:layout_below="@+id/e4"
+        android:layout_toRightOf="@+id/e4"
+        android:layout_alignRight="@+id/e3"
+        android:layout_alignEnd="@+id/e3"
+        tools:ignore="HardcodedText,RtlHardcoded" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/e6"
+        android:layout_alignStart="@+id/e6"
+        android:layout_below="@+id/e6"
+        android:layout_marginTop="15dp"
+        android:text="Gender"
+        android:textSize="24sp"
+        android:textStyle="italic|bold"
+        tools:ignore="HardcodedText" />
+
+    <EditText
+        android:id="@+id/e2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="31dp"
+        android:hint="Location"
+        android:inputType="text"
+        android:maxLength="10"
+        android:minEms="5"
+        android:textSize="23sp"
+        android:textStyle="italic|bold"
+        tools:ignore="HardcodedText"
+        android:layout_below="@+id/textView2"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_alignStart="@+id/textView2"
+        android:layout_alignRight="@+id/e1"
+        android:layout_alignEnd="@+id/e1" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="26dp"
+        android:text="BloodGroup"
+        android:textSize="23sp"
+        android:textStyle="italic|bold"
+        tools:ignore="HardcodedText"
+        android:layout_below="@+id/e1"
+        android:layout_alignLeft="@+id/e1"
+        android:layout_alignStart="@+id/e1" />
+
+    <Button
+        android:id="@+id/b1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="Upload Donor Details"
+        android:textColor="@android:color/black"
+        android:background="#9ACD32"
+        tools:ignore="HardcodedText"
+        android:layout_below="@+id/s1"
+        android:layout_alignLeft="@+id/textView9"
+        android:layout_alignStart="@+id/textView9"
+        android:layout_marginTop="22dp"
+        android:layout_toLeftOf="@+id/e5"
+        android:layout_toStartOf="@+id/e5" />
+
+    <EditText
+        android:id="@+id/e1"
+        android:textStyle="italic|bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:hint="Name"
+        android:fontFamily="serif"
+        android:inputType="text"
+        android:maxLength="30"
+        android:minEms="5"
+        android:textSize="23sp"
+
+        tools:ignore="HardcodedText"
+        android:layout_below="@+id/textView7"
+        android:layout_alignLeft="@+id/textView7"
+        android:layout_alignStart="@+id/textView7" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Donor Details Register"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        tools:ignore="HardcodedText,UnknownId,UnknownIdInLayout"
+        tools:textColor="@color/colorAccent"
+        android:layout_marginTop="17dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:id="@+id/e6"
+        android:textStyle="italic|bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif"
+
+        android:hint="Address"
+        android:inputType="textPostalAddress"
+        android:minEms="5"
+        android:textSize="23sp"
+
+        tools:ignore="HardcodedText"
+        android:layout_alignBaseline="@+id/e5"
+        android:layout_alignBottom="@+id/e5"
+        android:layout_alignLeft="@+id/e4"
+        android:layout_alignStart="@+id/e4" />
+</RelativeLayout>

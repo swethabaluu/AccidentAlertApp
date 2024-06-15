@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FAF5EF"
+
+    tools:context="com.example.a91962.accidentalert.uploadAdddonorDetails"
+    >
+
+
+    <Button
+        android:id="@+id/b1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="Update Donor Details"
+        android:textColor="@android:color/black"
+        android:background="#9ACD32"
+        tools:ignore="HardcodedText"
+        android:layout_marginBottom="44dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/e6"
+        android:layout_alignStart="@+id/e6" />
+
+    <EditText
+        android:id="@+id/editText7"
+        android:textStyle="italic|bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif"
+
+        android:hint="Address"
+        android:inputType="textPostalAddress"
+        android:minEms="5"
+        android:textSize="23sp"
+
+        tools:ignore="HardcodedText"
+        android:layout_below="@+id/e4"
+        android:layout_alignLeft="@+id/e4"
+        android:layout_alignStart="@+id/e4"
+        android:layout_marginTop="46dp" />
+
+    <EditText
+        android:id="@+id/e4"
+        android:fontFamily="serif"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="italic|bold"
+        android:hint="Phone"
+        android:inputType="phone"
+        android:maxLength="10"
+        android:minEms="5"
+        android:textSize="23sp"
+
+        tools:ignore="HardcodedText"
+        android:layout_below="@+id/e2"
+        android:layout_alignLeft="@+id/e2"
+        android:layout_alignStart="@+id/e2"
+        android:layout_marginTop="34dp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Donor Details Upload"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        tools:ignore="HardcodedText,UnknownId,UnknownIdInLayout"
+        tools:textColor="@color/colorAccent"
+        android:layout_marginTop="18dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:id="@+id/e1"
+        android:textStyle="italic|bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="29dp"
+        android:hint="Name"
+        android:fontFamily="serif"
+        android:inputType="text"
+        android:maxLength="50"
+        android:minEms="5"
+        android:textSize="23sp"
+
+        tools:ignore="HardcodedText"
+        android:layout_below="@+id/textView7"
+        android:layout_alignLeft="@+id/textView7"
+        android:layout_alignStart="@+id/textView7" />
+
+    <EditText
+        android:id="@+id/e6"
+        android:textStyle="italic|bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif"
+
+        android:hint="B group"
+        android:inputType="textPostalAddress"
+        android:minEms="5"
+        android:textSize="23sp"
+
+        tools:ignore="HardcodedText"
+        android:layout_marginTop="18dp"
+        android:layout_below="@+id/e1"
+        android:layout_alignLeft="@+id/e1"
+        android:layout_alignStart="@+id/e1" />
+
+    <EditText
+        android:id="@+id/e2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:hint="Location"
+        android:inputType="text"
+        android:maxLength="10"
+        android:minEms="5"
+        android:textSize="23sp"
+        android:textStyle="italic|bold"
+        tools:ignore="HardcodedText"
+        android:layout_below="@+id/e6"
+        android:layout_alignLeft="@+id/e6"
+        android:layout_alignStart="@+id/e6" />
+</RelativeLayout>

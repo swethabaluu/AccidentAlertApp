@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FAF5EF"
+    tools:context="com.example.a91962.accidentalert.uploadvehicleDetails"
+   >
+
+    <EditText
+        android:id="@+id/e2"
+        android:fontFamily="serif"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="34dp"
+        android:hint="Owner Name"
+        android:inputType="text"
+        android:maxLength="10"
+        android:minEms="5"
+        android:textSize="23sp"
+        android:textStyle="italic|bold"
+        tools:ignore="HardcodedText"
+        android:layout_below="@+id/e1"
+        android:layout_alignLeft="@+id/e1"
+        android:layout_alignStart="@+id/e1" />
+
+    <EditText
+        android:id="@+id/e5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif"
+        android:hint="Address"
+        android:maxEms="2"
+        android:maxLength="10"
+        android:minEms="2"
+        android:textSize="23sp"
+        android:textStyle="italic|bold"
+        tools:ignore="HardcodedText"
+        android:inputType="text"
+        android:layout_marginTop="34dp"
+        android:layout_below="@+id/e2"
+        android:layout_alignLeft="@+id/e2"
+        android:layout_alignStart="@+id/e2"
+        android:layout_alignRight="@+id/e1"
+        android:layout_alignEnd="@+id/e1" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:textColor="@android:color/black"
+        android:background="#9ACD32"
+        android:fontFamily="serif"
+        android:layout_height="wrap_content"
+
+        android:textStyle="italic|bold"
+        android:id="@+id/b1"
+        android:text="Update vehicle Details"
+        tools:ignore="HardcodedText"
+        android:layout_below="@+id/editText3"
+        android:layout_alignLeft="@+id/editText3"
+        android:layout_alignStart="@+id/editText3"
+        android:layout_marginTop="73dp" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif"
+        android:hint="B_Group"
+
+        android:inputType="textPostalAddress"
+        android:minEms="5"
+        android:textSize="23sp"
+        android:textStyle="italic|bold"
+        tools:ignore="HardcodedText"
+        android:layout_marginTop="58dp"
+        android:layout_below="@+id/e5"
+        android:layout_alignLeft="@+id/e5"
+        android:layout_alignStart="@+id/e5" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:fontFamily="serif"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="        Vehicle Details Update"
+        android:textColor="@color/colorPrimary"
+        android:textSize="15sp"
+        android:textStyle="bold|italic"
+        tools:ignore="HardcodedText,UnknownId,UnknownIdInLayout"
+        tools:textColor="@color/colorAccent"
+        android:layout_marginTop="12dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:id="@+id/e1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif"
+        android:hint="Vehicle Number"
+        android:inputType="text"
+        android:maxLength="50"
+        android:minEms="5"
+        android:textSize="23sp"
+        android:textStyle="italic|bold"
+        tools:ignore="HardcodedText"
+        android:layout_marginTop="33dp"
+        android:layout_below="@+id/textView8"
+        android:layout_alignLeft="@+id/textView8"
+        android:layout_alignStart="@+id/textView8" />
+
+</RelativeLayout>
